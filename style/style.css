@@ -249,14 +249,38 @@ footer {
   gap: 30px;
 }
 
-
 .footer-section-title {
-	font-size: 35px;
+  font-size: 35px;
 }
 
 .footer-items {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  width: 50%;
+}
+
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
+  /*height: 64px;
+  */
+  padding: 10px 20px;
+  /*margin-bottom: 24px;
+  */
+  border: none;
+  font-family: "Open Sans", serif;
+  width: 100%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.footer-form > input.submit.btn-primary {
+  text-align: center;
+  width: 50%;
+  /* display: inline; */
 }
